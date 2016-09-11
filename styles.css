@@ -38,6 +38,7 @@ body{
 p {
   margin:10px;
 }
+
 main{
   flex-grow: 12;
   display: flex;
@@ -65,8 +66,4 @@ nav, aside{
    order: 3;
     }
 
-  nav, aside{
-    min-width:none;
-    max-width:none;
-  }
 }
