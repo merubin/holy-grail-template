@@ -13,7 +13,7 @@ header, footer{
   background-color:#FFEDB9;
   border: 1px solid black;
   color:black;
-  flex-grow: 2;
+  flex-grow: 1;
 }
 
 body nav,body aside {
@@ -31,6 +31,7 @@ nav, aside,.content {
 
 body{
  display: flex;
+ height:  100%;
  flex-direction:column;
 }
 
@@ -38,15 +39,11 @@ p {
   margin:10px;
 }
 main{
-  flex-grow: 5;
+  flex-grow: 12;
   display: flex;
 }
 .content{
  flex-grow: 5;
-}
-
-.content > div {
-  /*padding-bottom: 60%; /* added to make content fill window  */*/
 }
 
 aside{
